@@ -1,4 +1,5 @@
-jos-course
+JOS-Course
 =========
-1.For my study of OS programming.
-  *coding abilities
+1. For my study of OS programming.
+2. Coding ability in C.
+3. System Knowledges.
