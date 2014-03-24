@@ -19,7 +19,3 @@ Lab1 notes
 Reference:
 ---
 [1. The "stabs" debug format](#http://www.cs.utah.edu/dept/old/texinfo/gdb/stabs.html)
-=======
-1. For my study of OS programming.
-2. Coding ability in C.
-3. System Knowledges.
