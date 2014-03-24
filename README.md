@@ -1,6 +1,5 @@
 JOS-Course
 =========
-<<<<<<< HEAD
 
 Lab1 notes
 ---
@@ -24,4 +23,3 @@ Reference:
 1. For my study of OS programming.
 2. Coding ability in C.
 3. System Knowledges.
->>>>>>> ec4b32065d0994f5ce39b2c71ba07f897977966f
