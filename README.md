@@ -1,27 +1,29 @@
-JOS-Course
+JOS-Course notes
 =========
-<<<<<<< HEAD
 
-Lab1 notes
----
-1. TODO: Exercise 8 in Lab1, why following code works
+- [Lab1 05/05/2014](#Lab1 05/05/2014)
+- [Lab1 05/xx/2014](#Lab1 05/xx/2014)
 
-```	
-	num = getuint(&ap, lflag);
-	base = 8;
-	goto number;
-	break;
-```
+<a name="lab1 05/05/2014" />
+## Lab 1
 
-2. TODO: Write the backtrack function
-3. TODO: Review x86 calling convention and write down the note in this file
+Reviewed the Part 1: PC Bootstrap and Part 2: The Boot Loader. This, answer the following questions:
 
+1. What is real mode and what is protected mode?
+2. __How gdb connect to make-qemu?__
+3. Where the BIOS start executing? (at 0xf000:0xfff0, 16 bytes to the top of the memory) 
+4. Where the Bootloader loaded into memory? (0x7c00)
+5. At what point does the processor start executing 32-bit code? `lgdt gdtdesc` instruction
+6. What exactly causes the switch from 16- to 32-bit mode? `lgdt gdtdesc` or `orl $CR0_PE_ON %eax` instruction?
+7. What is the last instruction of the boot loader executed, and what is the first instruction of the kernel it just loaded?
+8. Where is the first instruction of the kernel?
+9. How does the boot loader decide how many sectors it must read in order to fetch the entire kernel from disk? Where does it find this information? It read the header file, because the ELF header has the size, laod address, etc..
 
-Reference:
----
-[1. The "stabs" debug format](#http://www.cs.utah.edu/dept/old/texinfo/gdb/stabs.html)
-=======
-1. For my study of OS programming.
-2. Coding ability in C.
-3. System Knowledges.
->>>>>>> ec4b32065d0994f5ce39b2c71ba07f897977966f
+10. Load Address and Link Address
+
+11. gdb command
+  x/Nx ADDR dump content of N words start at va ADDR
+  x/Ni ADDR disassembly N instruction start at ADDR, $eip ==> ADDR current instruction at eip
+
+<a name="lab1 05/xx/2014" />
+Complete the Part 3 The Kernel
