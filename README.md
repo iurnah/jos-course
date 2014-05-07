@@ -18,12 +18,14 @@ Reviewed the Part 1: PC Bootstrap and Part 2: The Boot Loader. This, answer the 
 7. What is the last instruction of the boot loader executed, and what is the first instruction of the kernel it just loaded?
 8. Where is the first instruction of the kernel?
 9. How does the boot loader decide how many sectors it must read in order to fetch the entire kernel from disk? Where does it find this information? It read the header file, because the ELF header has the size, laod address, etc..
-
 10. Load Address and Link Address
-
 11. gdb command
   x/Nx ADDR dump content of N words start at va ADDR
   x/Ni ADDR disassembly N instruction start at ADDR, $eip ==> ADDR current instruction at eip
 
 <a name="lab1 05/xx/2014" />
 Complete the Part 3 The Kernel
+
+Reference:
+---
+[1. The "stabs" debug format](#http://www.cs.utah.edu/dept/old/texinfo/gdb/stabs.html)
