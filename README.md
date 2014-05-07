@@ -26,6 +26,15 @@ Reviewed the Part 1: PC Bootstrap and Part 2: The Boot Loader. This, answer the 
 <a name="lab1 05/xx/2014" />
 Complete the Part 3 The Kernel
 
+TODO: Exercise 8 in Lab1, why following code works
+    num = getuint(&ap, lflag);
+    base = 8;
+    goto number;
+    break;
+TODO: Write the backtrack function
+TODO: Review x86 calling convention and write down the note in this file
+
+
 Reference:
 ---
 [1. The "stabs" debug format](#http://www.cs.utah.edu/dept/old/texinfo/gdb/stabs.html)
