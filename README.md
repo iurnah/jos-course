@@ -1,10 +1,10 @@
 JOS-Course notes
 =========
 
-- [Lab1 05/05/2014](#Lab1 05/05/2014)
-- [Lab1 05/xx/2014](#Lab1 05/xx/2014)
+- [Lab1 05/05/2014](#Lab1/05/05/2014)
+- [Lab1 05/11/2014](#Lab1/05/11/2014)
 
-<a name="lab1 05/05/2014" />
+<a name="lab1/05/05/2014" />
 ## Lab 1
 
 Reviewed the Part 1: PC Bootstrap and Part 2: The Boot Loader. This, answer the following questions:
@@ -23,21 +23,23 @@ Reviewed the Part 1: PC Bootstrap and Part 2: The Boot Loader. This, answer the 
   x/Nx ADDR dump content of N words start at va ADDR
   x/Ni ADDR disassembly N instruction start at ADDR, $eip ==> ADDR current instruction at eip
 
-<a name="lab1 05/xx/2014" />
-Complete the Part 3 The Kernel
+<a name="lab1/05/11/2014" />
+## Lab 1 Part 3 kernel
 
-TODO: Exercise 8 in Lab1, why following code works
+TODO: 
 
+1. Exercise 7, what special about the address 0x00100000? 
+2. Exercise 8 in Lab1, why following code works
+```
 	num = getuint(&ap, lflag);
     base = 8;
     goto number;
     break;
-
-TODO: Write the backtrack function
-TODO: Review x86 calling convention and write down the note in this file
-
+```
+3. Write the backtrack function
+4. Write the advanced backtrack function (stabs)
 
 Reference:
 ---
 
-[1. The "stabs" debug format](#http://www.cs.utah.edu/dept/old/texinfo/gdb/stabs.html)
+1. [The "stabs" debug format](http://www.cs.utah.edu/dept/old/texinfo/gdb/stabs.html)
