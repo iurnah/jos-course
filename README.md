@@ -1,9 +1,9 @@
 JOS-Course notes
 =========
 
-- [Lab1 05/05/2014](#Lab1/05/05/2014)
-- [Lab1 05/11/2014](#Lab1/05/11/2014)
-- [Lab1 05/11/2014](#lab1/05/14/2014)
+- [Lab1 05/05/2014](#lab1/05/05/2014)
+- [Lab1 05/11/2014](#lab1/05/11/2014)
+- [Lab1 05/14/2014](#lab1/05/14/2014)
 
 <a name="lab1/05/05/2014" />
 ## Lab 1
@@ -42,7 +42,7 @@ TODO:
 4. Write the advanced backtrack function (stabs)
 
 <a name="lab1/05/14/2014" />
-## Lab 1 Part 3 Kernel
+## Lab 1 Part 3 Kernel (2)
 
 hard to implement without understand the code structures, next time read through the whole code base of this lab. Try to understand the comments and making notes of the kernel. Then can goback to solve the previous sections.
 
