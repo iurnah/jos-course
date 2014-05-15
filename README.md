@@ -3,6 +3,7 @@ JOS-Course notes
 
 - [Lab1 05/05/2014](#Lab1/05/05/2014)
 - [Lab1 05/11/2014](#Lab1/05/11/2014)
+- [Lab1 05/11/2014](#lab1/05/14/2014)
 
 <a name="lab1/05/05/2014" />
 ## Lab 1
@@ -26,6 +27,7 @@ Reviewed the Part 1: PC Bootstrap and Part 2: The Boot Loader. This, answer the 
 <a name="lab1/05/11/2014" />
 ## Lab 1 Part 3 kernel
 
+
 TODO: 
 
 1. Exercise 7, what special about the address 0x00100000? 
@@ -38,6 +40,11 @@ TODO:
 ```
 3. Write the backtrack function
 4. Write the advanced backtrack function (stabs)
+
+<a name="lab1/05/14/2014" />
+## Lab 1 Part 3 Kernel
+
+hard to implement without understand the code structures, next time read through the whole code base of this lab. Try to understand the comments and making notes of the kernel. Then can goback to solve the previous sections.
 
 Reference:
 ---
