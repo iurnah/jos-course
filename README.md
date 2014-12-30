@@ -12,4 +12,5 @@ JOS-Course From mit6.828
 
 
 #### Notes:
-See the notes in the wiki page for review
+- See the notes in the wiki page for review
+- Be careful when working on it, refere to the [git submodule](http://git-scm.com/book/en/v2/Git-Tools-Submodules)
