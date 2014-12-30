@@ -1,0 +1,3 @@
+[submodule "labs"]
+	path = labs
+	url = http://pdos.csail.mit.edu/6.828/2012/jos.git
