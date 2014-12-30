@@ -1,3 +1,6 @@
 [submodule "labs"]
 	path = labs
 	url = http://pdos.csail.mit.edu/6.828/2012/jos.git
+[submodule "xv6"]
+	path = xv6
+	url = git://pdos.csail.mit.edu/xv6/xv6.git
